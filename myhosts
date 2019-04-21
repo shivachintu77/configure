@@ -1,9 +1,9 @@
 [redhathosts]
-172.31.19.85
-
+172.31.41.104
 
 [ubuntuhosts]
 172.31.41.166
+
 
 [ubuntuhosts:vars]
 ansible_python_interpreter=/usr/bin/python3
