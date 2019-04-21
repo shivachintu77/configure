@@ -4,7 +4,7 @@
 [ubuntuhosts]
 172.31.41.166
 
-[webserver]
+[webservers]
 172.31.41.104
 172.31.41.166
 
