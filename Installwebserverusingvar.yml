@@ -14,7 +14,7 @@
      state: started
      when: ansible_os_family== "Debian"
 
-  - name: install webserver(httpd) on redhat7
+  - name: install webserver() on redhat7
     yum:
      name: "{{webserveronredhat}}"
      state: present
