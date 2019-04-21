@@ -6,13 +6,13 @@
     apt:
      name: "{{webserveronubuntu}}"
      state: present
-     when: ansible_os_family== "Debian"
+    when: ansible_os_family== "Debian"
 
-  - name: start the service 
-    service: 
+  - name: start the service
+    service:
      name: "{{webserveronubuntu}}"
      state: started
-     when: ansible_os_family== "Debian"
+    when: ansible_os_family== "Debian"
 
   - name: install webserver() on redhat7
     yum:
