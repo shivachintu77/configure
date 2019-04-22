@@ -3,7 +3,7 @@
   become: yes
   var:
     myvar1: shiva
-    myvar2: none
+    myvar2: kkr
   tasks:
    - name: display myvar1
      debug:
