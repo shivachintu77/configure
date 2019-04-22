@@ -1,0 +1,14 @@
+---
+- hosts: webservers
+  become: yes
+  var:
+    myvar1: shiva
+    myvar2: none
+  tasks:
+   - name: display myvar1
+     debug:
+       msg: "{{myvar1}}"
+
+   - name: display myvar2
+     debug:
+       msg: "{{myvar2}}"
