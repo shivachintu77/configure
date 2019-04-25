@@ -25,6 +25,6 @@
   notify: restarttomcat
 - name: i want to deploy ravi java war file into webapps 
   get_url:
-    url: http://18.191.178.51:8081/artifactory/myshiva/1/target/mahaLogin-1.0.war 
+    url: http://3.17.177.203:8081/artifactory/myshiva/1/target/mahaLogin-1.0.war 
     dest: /usr/share/tomcat/webapps/mahaLogin-1.0.war
     force_basic_auth: yes
